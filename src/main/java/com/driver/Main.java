@@ -15,7 +15,7 @@ public class Main {
   @Override
   public String meth()
   {
-    return "Method is overridden in Extended class B";
+    return "Method is overridden in Extendened class B";
   }
 }
 
