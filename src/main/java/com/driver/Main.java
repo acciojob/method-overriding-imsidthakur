@@ -9,6 +9,9 @@ public class Main {
 }
 
  public static class B extends A{
+  public String callSuperMeth() {
+      return super.meth();  
+    }
   @Override
   public String meth()
   {
@@ -19,6 +22,7 @@ public class Main {
   public static void main(String []args)
   {
     B obj = new B();
+    obj.callSuperMeth();
     obj.meth();
   }
 }
