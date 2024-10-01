@@ -8,7 +8,7 @@ class A{
   }
 }
 
-class B{
+class B extends A{
   @Override
   public String meth()
   {
@@ -20,6 +20,6 @@ public class Main {
   public static void main(String []args)
   {
     B obj = new B();
-    b.meth();
+    obj.meth();
   }
 }
